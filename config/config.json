@@ -1,0 +1,45 @@
+{
+   "port": 3000,
+   "streams": {
+      "mysql-log": {
+         "id": "mysql-log",
+         "name": "Mysql",
+         "path": "/var/log/mysql/mysql.log",
+         "custom": false
+      },
+      "nginx-log": {
+         "id": "nginx-log",
+         "name": "Nginx",
+         "path": "/var/log/nginx/error.log",
+         "custom": false
+      },
+      "mongo-log": {
+         "id": "mysql-log",
+         "name": "Mongo",
+         "path": "/var/log/mongodb/mongod.log",
+         "custom": false
+      }
+   },
+   "users": [],
+   "user_access": {
+      "samsmith": [
+         "stream1",
+         "stream2"
+      ]
+   },
+   "stream_access": {
+      "stream1": [
+         "samsmith",
+         "joeblow"
+      ]
+   },
+   "authentication": {
+      "required": false,
+      "source": "mysql",
+      "username": "",
+      "password": "",
+      "host": "",
+      "database": "",
+      "table": ""
+   }
+}
