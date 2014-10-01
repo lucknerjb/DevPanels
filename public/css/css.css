@@ -29,9 +29,12 @@ a:hover { text-decoration: underline; color: #aaa; }
 #toolbar {
     position: fixed;
     color: #fff;
-    width: 100%;
+    /*width: 100%;*/
     bottom: 0;
     background: #933;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 
 #entry {
@@ -109,4 +112,8 @@ a:hover { text-decoration: underline; color: #aaa; }
 
 .stream {
    display: none;
+}
+
+.log table {
+   margin-top: 10px;
 }

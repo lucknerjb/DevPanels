@@ -1,20 +1,20 @@
 {
    "port": 3000,
    "streams": {
-      "mysql-log": {
-         "id": "mysql-log",
+      "mysql_log": {
+         "id": "mysql_log",
          "name": "Mysql",
          "path": "/var/log/mysql/mysql.log",
          "custom": false
       },
-      "nginx-log": {
-         "id": "nginx-log",
+      "nginx_log": {
+         "id": "nginx_log",
          "name": "Nginx",
          "path": "/var/log/nginx/error.log",
          "custom": false
       },
-      "mongo-log": {
-         "id": "mysql-log",
+      "mongo_log": {
+         "id": "mongo_log",
          "name": "Mongo",
          "path": "/var/log/mongodb/mongod.log",
          "custom": false
